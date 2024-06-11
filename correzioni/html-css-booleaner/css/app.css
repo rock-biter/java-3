@@ -1,0 +1,83 @@
+/* * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+} */
+
+body {
+	margin: 0;
+}
+
+figure {
+	margin: 0;
+}
+
+/* Header */
+.page-header {
+	background-color: rgb(159, 228, 255);
+	padding: 24px 10px;
+}
+
+.logo {
+	height: 50px;
+}
+
+/* main */
+.page-content {
+	padding: 10px;
+}
+
+.page-content a {
+	text-decoration: none;
+	color: rgb(70, 70, 255);
+}
+
+.page-content ul {
+	padding-left: 17px;
+}
+
+.main-title {
+	font-size: 24px;
+}
+
+.article-author {
+	color: #767676;
+	font-size: 18px;
+}
+
+.article-author time {
+	font-size: 14px;
+}
+
+.mark {
+	background-color: rgba(1, 149, 255, 0.5);
+}
+
+.table {
+	width: 100%;
+}
+
+.table thead tr {
+	text-align: left;
+	background-color: rgba(1, 149, 255, 0.5);
+}
+
+.bg-light-blue {
+	background-color: rgb(135, 205, 255);
+}
+
+.w-25 {
+	width: 25%;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+/* Footer */
+.page-footer {
+	background-color: rgb(71, 95, 255);
+	color: white;
+	padding: 16px 10px;
+	text-align: center;
+}
