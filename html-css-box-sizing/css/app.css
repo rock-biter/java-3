@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.box {
+	width: 500px;
+	padding: 50px;
+	border: 25px solid red;
+
+	/* box-sizing: border-box; */
+}
+
+.box.box-blue {
+	background-color: cornflowerblue;
+}
+
+.box.box-yellow {
+	background-color: yellow;
+}
+
+input[type='email'] {
+	height: 50px;
+	background-color: salmon;
+}
+
+body > a {
+	color: purple;
+	font-size: 32px;
+}
+
+#my-box {
+	height: 40px;
+}
+
+div.my-box {
+	height: 60px;
+}
+
+div {
+	height: 50px;
+}

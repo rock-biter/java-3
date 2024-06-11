@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #efefef;
+}
+
+/* layout */
+
+.container {
+	max-width: 800px;
+}
+
+/* header */
+.page-header {
+	background-color: white;
+	padding: 20px 12px;
+}
+
+.page-header * {
+	vertical-align: middle;
+}
+
+.user-avatar {
+	width: 42px;
+}
+
+.user-name {
+	font-size: 20px;
+}
+
+.bg-white {
+	background-color: white;
+}
+
+/* page content */
+.page-content {
+	padding: 20px;
+}
