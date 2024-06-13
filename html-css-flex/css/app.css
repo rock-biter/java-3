@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.section {
+	padding: 30px 10px;
+}
+
+.row {
+	background-color: coral;
+	padding: 14px;
+	border-radius: 8px;
+	display: flex;
+}
+
+.row > * {
+	background-color: cornflowerblue;
+	padding: 14px;
+	border-radius: 8px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* ex 2 */
+#ex-2 .row {
+	flex-direction: column;
+}
+
+/* ex 3 */
+#ex-3 .row {
+	flex-wrap: wrap;
+}
+
+/* ex 4 */
+#ex-4 .row {
+	justify-content: center;
+}
+
+#ex-4 .row .col {
+	/* width: calc(100% / 3); */
+}
+
+/* ex 5  */
+
+#ex-5 .row {
+	align-items: center;
+	justify-content: space-between;
+}
+
+#ex-5 .logo {
+	height: 100px;
+}
+
+/* ex 6 */
+
+#ex-6 .row {
+	flex-wrap: wrap;
+	height: 300px;
+	align-items: center;
+}
+
+/* ex-7 */
+
+#ex-7 .row {
+	align-content: stretch;
+	flex-wrap: wrap;
+	height: 400px;
+}
+
+/* ex-8 */
+
+#ex-8 .row {
+	align-content: stretch;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	height: 300px;
+}
+
+.self-center {
+	align-self: center;
+}
+.self-end {
+	align-self: flex-end;
+}
+.self-stretch {
+	align-self: stretch;
+}
+
+/* ex-9 */
+.order-1 {
+	order: 1;
+}
+
+.order-3 {
+	order: 3;
+}
