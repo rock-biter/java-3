@@ -1,0 +1,175 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap'); */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+/* evita che le img escano in larghezza dai loro contenitori */
+img {
+	max-width: 100%;
+}
+
+html {
+	font-family: 'Source Sans 3', sans-serif;
+}
+
+/* LAYOUT */
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row > * {
+	padding: 0 20px;
+}
+
+.col-33 {
+	width: calc(100% / 3);
+}
+
+.col-66 {
+	width: calc((2 * 100%) / 3);
+}
+
+.col-50 {
+	width: 50%;
+}
+
+/* header */
+
+.logo {
+	height: 35px;
+	display: block;
+}
+
+.logo-wrapper {
+	flex-shrink: 0;
+}
+
+.page-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 24px;
+}
+
+.button {
+	line-height: 36px;
+	background-color: #2e45cc;
+	display: block;
+	color: white;
+	padding: 0 16px;
+	border-radius: 999px;
+	font-size: 18px;
+}
+
+.main-menu {
+	display: flex;
+	font-size: 18px;
+	gap: 16px;
+}
+
+/* Hero */
+.hero {
+	background-color: #f5f9ff;
+}
+
+.hero .row {
+	align-items: center;
+}
+
+.hero-title {
+	color: #2e45cc;
+	font-size: 48px;
+	line-height: 1;
+}
+
+.hero-image {
+	display: block;
+}
+
+.hero-subtitle {
+	font-size: 20px;
+	font-weight: normal;
+}
+
+/* BLOG */
+.blog {
+	background-color: #2e45cc;
+	color: white;
+	padding: 80px 0;
+}
+
+.section-title {
+	font-size: 36px;
+	margin-bottom: 24px;
+}
+
+.blog .row {
+	row-gap: 40px;
+}
+
+/* team card */
+.card-team {
+	display: flex;
+	gap: 24px;
+	align-items: flex-start;
+}
+
+/* TEAM */
+.team {
+	padding: 80px 0;
+}
+
+.team-avatar {
+	width: 70px;
+	flex-shrink: 0;
+	/* align-self: flex-start; */
+}
+
+.team-name {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	color: #2e45cc;
+}
+
+.team .row {
+	row-gap: 40px;
+}
+
+/* DEBUG */
+.debug .row {
+	border: 2px solid red;
+	padding: 2px;
+}
+
+.debug .col-50 {
+	border: 2px solid blue;
+}
+
+.debug .card {
+	border: 2px solid black;
+}
+
+.debug .card > * {
+	border: 1px solid red;
+}

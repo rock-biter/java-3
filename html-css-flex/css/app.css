@@ -102,3 +102,38 @@
 .order-3 {
 	order: 3;
 }
+
+/* ex 10 */
+
+#ex-10 .col {
+	/* width: calc(100% / 4); */
+}
+
+.grow-1 {
+	flex-grow: 1;
+}
+
+.grow-3 {
+	flex-grow: 3;
+}
+
+/* ex 11 */
+#ex-11 .col {
+	flex-basis: 150px;
+}
+
+.shrink-0 {
+	flex-shrink: 0;
+}
+
+.shrink-3 {
+	flex-shrink: 3;
+}
+
+/* ex 12 */
+#ex-12 .row {
+	/* row-gap: 0px;
+	column-gap: 0px; */
+	gap: 10px;
+	flex-wrap: wrap;
+}
