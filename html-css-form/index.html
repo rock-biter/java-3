@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form HTML</title>
+	</head>
+	<body>
+		<h1>Form HTML</h1>
+		<form action="" method="GET">
+			<div>
+				<label for="nome">Nome *</label>
+				<input
+					type="text"
+					required
+					id="nome"
+					name="nome"
+					placeholder="Il tuo nome"
+					value="Gianluca Lomarco"
+				/>
+			</div>
+
+			<div>
+				<label for="email">Email *</label>
+				<input
+					required
+					type="email"
+					value="gianni@gmail.com"
+					name="email"
+					id="email"
+				/>
+			</div>
+
+			<div>
+				<label for="password">Password *</label>
+				<input required type="password" name="password" id="password" />
+			</div>
+
+			<div>
+				<label for="message">Il tuo messaggio</label>
+				<textarea id="message" name="messaggio">Ciao mamma</textarea>
+			</div>
+
+			<div>
+				<label for="genre">Il tuo genere</label>
+				<select required id="genre" name="genere">
+					<option value="">-- seleziona il tuto genere --</option>
+					<option value="maschio">Maschio</option>
+					<option selected value="femmina">Femmina</option>
+					<option value="altro">Altro</option>
+				</select>
+			</div>
+
+			<div>
+				<input type="checkbox" checked name="notifiche" id="notifiche" />
+				<label for="notifiche">Attiva notifiche</label>
+			</div>
+
+			<div>
+				<input type="radio" checked name="premium" id="premium" />
+				<label for="premium">Abbonamento Premium</label>
+			</div>
+			<div>
+				<input type="radio" name="premium" id="premium" />
+				<label for="premium">Abbonamento Base</label>
+			</div>
+
+			<div>
+				<button>Invia</button>
+			</div>
+		</form>
+	</body>
+</html>
