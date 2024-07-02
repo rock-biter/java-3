@@ -1,0 +1,25 @@
+section {
+	padding: 24px;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: red;
+}
+
+.pippo {
+	border: 2px solid black;
+}
+
+.bg-blue {
+	background-color: cornflowerblue;
+}
+
+.active {
+	color: white;
+}
